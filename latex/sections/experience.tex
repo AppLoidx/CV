@@ -1,76 +1,61 @@
-\sectionTitle{Experience}{\faSuitcase}
+\sectionTitle{Work Experience}{\faSuitcase}
 \renewcommand{\labelitemi}{$\bullet$}
 \begin{works}
     \work
-        {Backend Software Engineer} {\link{https://www.azul.com/}{Azul}} {Limassol, Cyprus} {January 2025 -- Today}
+        {Unallocated Metal Accounts} {\link{https://www.sberbank.ru/}{Sberbank}} {} {Apr 2024 -- Present}
         {
-            Designed and delivered multiple backend services for vulnerability data processing and enrichment within a JVM ecosystem, \mbox{including} AI-assisted detection of impacted code elements and a centralized CPE/CVE processing pipeline. Established system observability with Grafana to ensure reliability and performance at scale.
-        
-            \begin{itemize}
-                \item {
-                    Average CVE and CPE ingestion time \textbf{decreased from 24h to 8h}, ensuring compliance with a 24-hour security SLA.
-                }
-                \item {
-                    Class/Method-level vulnerability coverage \textbf{improved from 15\% to 75\%} through automation of data collection and analysis.
-                }
-                \item {
-                    Migrated the system from a monolithic to a microservices architecture, enabling independent scaling of components and improving overall system flexibility and maintainability.
-                }
-            \end{itemize}
+            Built the web platform for a product that attracted \textbf{450K+ new accounts} and \textbf{RUB 46 bn in investments} in 2025 alone. Built on Spring Microservices with Kafka on OpenShift. Responsible for the entire customer-facing web frontend consisting of 5 micro-frontend projects, fully rewritten for the new design system. Handled both legacy maintenance and integration of new technologies aligned with fintech trends. 14-person cross-functional team including mobile developers, analysts, QA, and designers.
         }
         {
-            Kotlin, Java, AWS, Kubernetes, PostgreSQL, MongoDB, Spring Framework, Spring Batch, Kafka, Gradle, Grafana, Prometheus, GitLab CI, JUnit 5, Mockito, Allure TestOps
+            Java, Spring Boot, Spring Microservices, React, TypeScript, Kafka, OpenShift, Docker, Kubernetes, Nginx
         }
+
     \work
-        {Software Engineer in Test} {\link{https://www.azul.com/}{Azul}} {Yerevan, Armenia (relocation to Cyprus)} {April 2023 -- January 2025}
+        {Cash Operations} {\link{https://www.sberbank.ru/}{Sberbank}} {} {2024}
         {
-            Improved the quality, reliability, and performance of the automated testing pipeline by introducing structured test planning, \mbox{expanding} automation coverage, and optimizing test execution strategy. Collaborated with developers and product managers to define comprehensive test plans, implemented automated tests for new features, and refactored existing test code to improve maintainability and scalability.
-        
-            \begin{itemize}
-                \item {
-                    Automated test coverage \textbf{increased from 60\% to 80\%}, improving overall product quality and reducing regression risks.
-                }
-                \item {
-                    Flaky test rate \textbf{reduced from 30\% to <1\%}, significantly increasing test reliability and developer trust in CI results.
-                }
-                \item {
-                    Average pipeline test execution time \textbf{decreased from 2 hours to 1 hour} by splitting tests by scope and executing only \mbox{impacted} tests per pipeline.
-                }
-            \end{itemize}
+            Transferred after an internal interview. Developed backend cash ordering, valuables management, and branch operations tracking as part of the core banking system.
         }
         {
-            Java, Allure TestOps, JUnit 5, Spring Framework, Selenium, Selenide, PostgreSQL, jtreg, Jenkins, GitLab CI
+            Java, Spring Boot, SQL
         }
+
     \work
-        {Java Backend Developer} {\link{https://yandex.com/company}{Yandex}} {Yerevan, Armenia} {January 2023 -- April 2023}
+        {Senior Development Engineer} {\link{https://www.bell-integrator.com/}{Bell Integrator}} {} {Apr 2024 -- Present}
         {
-            Implemented a billing service designed for the creation and management of promotional offers and subscriptions. The \mbox{system} enabled quick and flexible setup of new promotions with configurable conditions. The system allows non-engineering teams to independently create and manage offers without requiring code changes or database migrations.
-        
-            \begin{itemize}
-                \item {
-                    Time-to-market for new promotions \textbf{reduced from days to hours}, eliminating dependency on engineering team.
-                }
-            \end{itemize}
+        \begin{itemize}
+            \item {Implemented PII masking for logging across microservices}
+            \item {Integrated an AI coding agent using MCP}
+            \item {Built new service integrations via Kafka}
+            \item {Rewrote 4 micro-frontend modules for the design system migration}
+            \item {Published and maintained a shared UI library in the internal package registry}
+            \item {Configured OpenShift deployments and local stub environments for frontend-backend development}
+            \item {Set up Allure TestOps for automated test reporting}
+            \item {Led acceptance testing and release management}
+            \item {Conducted code reviews across Java and React codebases; performed refactoring across Java, Spring, React, and TypeScript}
+            \item {Investigated production bugs through log analysis and customer reports}
+        \end{itemize}
         }
-        {Java, PostgreSQL, Spring Framework, Python, JUnit 5, Prometheus}
+        {
+            Java, Spring Boot, React, TypeScript, Kafka, OpenShift, Docker, Kubernetes, Allure TestOps, JUnit
+        }
+
     \work
-        {Kotlin Backend Developer} {\link{https://www.tinkoff.ru/software/}{Tinkoff}} {St.Petersburg, Russia (relocation to Armenia)} {May 2021 -- January 2023}
+        {Full-Stack Developer} {\link{https://shark-it.ru/}{Shark IT Company}} {Yakutsk, Russia} {Mar 2019 -- Apr 2024}
         {
-            Designed and delivered multiple high-load backend services and infrastructure components, including workflow orchestration, low-latency data services, distributed data migration, and internal execution frameworks. Focused on scalability, reliability, and automation across distributed systems.
-        
-            \begin{itemize}
-                \item {
-                    Enabled stable handling of \textbf{10k+ RPS} by building a customer data service, establishing a single source of truth for multiple internal platforms.
-                }
-                \item {
-                    Reduced manual data migration effort and automated large-scale transfers, processing millions of records across PostgreSQL and Oracle systems.
-                }
-                \item {
-                    Test coverage \textbf{increased by 50\%} and regression cycle time \textbf{reduced by 70\%} by introducing an automated testing framework integrated into CI/CD pipelines.
-                }
-            \end{itemize}
+            Full-cycle application development from greenfield projects to maintaining existing solutions. Primary stack: Spring Boot and React/Next.js.
+        \begin{itemize}
+            \item {System architecture design and end-to-end technical implementation for a news publishing platform serving multiple media outlets}
+            \item {Full-stack development of user and admin panels with interactive media features: widgets, short-form video, content sliders}
+            \item {Real-time messaging and reader-to-publisher communication module}
+            \item {Leading a team of developers}
+            \item {Payment processing integration (YooKassa) and ModulKassa (fiscal hardware compliance)}
+            \item {Cloud deployment and infrastructure on Yandex Cloud}
+            \item {Custom handwritten text recognition pipeline using PostgreSQL and AWS S3}
+            \item {Push notification system for content updates}
+            \item {Legacy code maintenance and incremental modernization}
+        \end{itemize}
         }
         {
-            Kotlin, PostgreSQL, Oracle, Spring Framework, Kafka, Camunda, Quartz, Swagger, Allure TestOps, JUnit 5, WSDL, Prometheus, Grafana
+            Java, Spring Boot, React, Next.js, Vue.js, Nuxt, TypeScript, Vite, TailwindCSS, Kafka, RabbitMQ, Redis, MongoDB, Docker, Yandex Cloud
         }
 \end{works}

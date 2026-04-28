@@ -24,7 +24,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{url,parskip}
 \RequirePackage[dvipsnames]{xcolor}
-\RequirePackage[margin=1.5cm]{geometry}
+\RequirePackage[margin=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
 \RequirePackage{fontawesome5}
 \RequirePackage{hyperref}
 \RequirePackage{titlesec}
@@ -127,8 +127,7 @@
 
 \newcommand\link[2]{\color{linkcolor}\href{#1}{#2}\color{Black}}
 \newcommand{\cvtag}[1]{%
-  \tikz[baseline]\node[anchor=base, draw=darkGrey!70, rounded corners=0.5ex,
-    inner xsep=1ex, inner ysep=0.55ex, text height=1.3ex, text depth=.25ex]{#1};%
+  {\textcolor{symbolcolor}{#1}\hspace{0.3em}\textcolor{darkGrey!40}{·}\hspace{0.3em}}%
 }
 
 %% ─── Social commands ────────────────────────────────────────────────────────
@@ -252,10 +251,14 @@
 
 \newcommand\work[6]{%
   \noindent
-  \makebox[\dimexpr(\linewidth) - 1.5em][l]{\textbf{#1, \textsc{#2}, #3}\hfill\textbf{#4}}\\
+  \makebox[\dimexpr(\linewidth) - 1.5em][l]{\textbf{#1, \textsc{#2}, #3}\hfill\textbf{#4}}\\[2pt]
   \begin{minipage}[t]{\dimexpr(\linewidth) - 1.5em}
     \begin{minipage}[t]{\dimexpr(\linewidth)}#5\end{minipage}\\
-    \footnotesize{\foreach \n in {#6}{\cvtag{\n}\ }}\\
+    \footnotesize\par\setlength{\baselineskip}{11pt}%
+    \foreach \n [count=\ni] in {#6}{%
+      \ifnum\ni>1\hspace{0.3em}{\normalsize\textcolor{symbolcolor}{\textperiodcentered}}\hspace{0.3em}\fi
+      \textcolor{symbolcolor}{\n}%
+    }\\
   \end{minipage}\\*%
 }
 
