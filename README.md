@@ -1,4 +1,4 @@
-# Anatolii Anishchenko — CV
+# Arthur Kupriyanov — CV
 
 LaTeX CV with automatic compilation and deployment to GitHub Pages via GitHub Actions.
 
