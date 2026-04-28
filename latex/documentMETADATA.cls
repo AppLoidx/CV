@@ -20,7 +20,6 @@
 %% ─── Packages ───────────────────────────────────────────────────────────────
 
 \RequirePackage[english]{babel}
-\RequirePackage[utf8]{luainputenc}
 \RequirePackage{fontspec}
 \RequirePackage{url,parskip}
 \RequirePackage[dvipsnames]{xcolor}

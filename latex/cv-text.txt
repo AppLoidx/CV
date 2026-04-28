@@ -1,0 +1,99 @@
+ARTHUR KUPRIYANOV
+Software Engineer
+
+@ apploidyakutsk@gmail.com
+
+Paper-Plane t.me/OxOOOFFAB
+
+Github github.com/kupriyanov-arthur
+
+LINKEDIN linkedin.com/in/kupriyanov-arthur
+
+User SUMMARY
+Software Engineer with 6+ years of experience building full-stack web applications with Java, React, and TypeScript. Shipped
+production systems at Sberbank serving hundreds of thousands of users. Experienced in microservice architectures, message
+brokers, and modern frontend frameworks. Hands-on with LLM integration, RAG pipelines, and semantic search. Value clean
+code, solid engineering practices and clear communication within cross-functional teams.
+
+SUITCASE WORK EXPERIENCE
+Senior Development Engineer, SBERBANK,
+Apr 2024 – Present
+Angle-Right Built the web platform for Unallocated Metal Accounts — a product that attracted 450K+ new accounts and RUB 46 bn in
+investments in 2025 alone
+Angle-Right Responsible for the entire customer-facing web frontend consisting of 5 micro-frontend projects, fully rewritten for the new
+design system
+Angle-Right Developed backend cash ordering, valuables management, and branch operations tracking as part of the core banking system
+Angle-Right Built on Spring Microservices with Kafka on OpenShift. 14-person cross-functional team including mobile developers, analysts, QA, and designers
+Angle-Right Integrated an AI coding agent using MCP; published and maintained a shared UI library in the internal package registry
+Angle-Right Configured OpenShift deployments and local stub environments for frontend-backend development
+Angle-Right Set up Allure TestOps for automated test reporting; led acceptance testing and release management
+Angle-Right Conducted code reviews across Java and React codebases; performed refactoring across Java, Spring, React, and TypeScript
+Angle-Right Investigated production bugs through log analysis and customer reports
+Java · Spring Boot · Spring Microservices · React · TypeScript · Kafka · OpenShift · Docker · Kubernetes · Nginx · Allure TestOps · JUnit
+Full-Stack Developer, SHARK IT COMPANY, Russia
+Mar 2019 – Apr 2024
+Full-cycle application development from greenfield projects to maintaining existing solutions. Primary stack: Spring Boot and
+React/Next.js.
+Angle-Right System architecture design and end-to-end technical implementation for a news publishing platform serving multiple media
+outlets
+Angle-Right Full-stack development of user and admin panels with interactive media features: widgets, short-form video, content sliders
+Angle-Right Real-time messaging and reader-to-publisher communication module
+Angle-Right Leading a team of developers
+Angle-Right Payment processing integration (YooKassa) and ModulKassa (fiscal hardware compliance)
+Angle-Right Cloud deployment and infrastructure on Yandex Cloud
+Angle-Right Custom handwritten text recognition pipeline using PostgreSQL and AWS S3
+Angle-Right Push notification system for content updates
+Angle-Right Legacy code maintenance and incremental modernization
+Java · Spring Boot · React · Next.js · AWS · Nuxt · TypeScript · Vite · TailwindCSS · Kafka · RabbitMQ · Redis · MongoDB · Docker
+
+CODE SKILLS
+Backend
+Frontend
+AI Engineering
+DevOps
+Testing
+Languages
+
+Java, Spring Boot, Spring Microservices, Kafka, RabbitMQ, Redis, MongoDB, SQL, REST, WebSocket, JWT, Firebase, FCM
+React, Nuxt, Next.js, TypeScript, Vite, TailwindCSS, SCSS, Bootstrap
+LLM APIs, RAG, Embeddings, Vector Search, Semantic Search, Prompt Engineering, Privacypreserving AI
+Docker, Docker Compose, Kubernetes, OpenShift, AWS, Nginx, Unix, Git, Maven
+TDD, JUnit, Allure TestOps
+Russian (Native), English (Fluent)
+
+Laptop PERSONAL PROJECTS
+ARTHUR KUPRIYANOV — CV
+
+1
+
+NIRQ — AI-POWERED NEWS AGGREGATOR, GitHub
+
+2025 – PRESENT
+
+Telegram bot and web platform for personalized AI-driven news digests. Automatically aggregates RSS feeds from Telegram channels, generates semantic summaries, and delivers personalized digests.
+Angle-Right Spring Boot backend with PostgreSQL, Redis, and Docker Compose
+Angle-Right RAG pipeline: embeddings (pgvector, HNSW), semantic search, AI-powered digest generation
+Angle-Right Multi-provider LLM routing with automatic fallback (OpenAI, GLM, Ollama)
+Angle-Right Privacy-first architecture: anonymous usage, no user profiling, encrypted AI inference
+Angle-Right Payment integration via YooKassa and Telegram Stars
+Java · Spring Boot · PostgreSQL · pgvector · Redis · Docker · Telegram Bot API · LLM APIs · Python ·
+
+RETRYABLE TASK CHAIN LIBRARY, Tinkoff, St.Petersburg, Russia
+
+2022
+
+Implemented a Java Spring library for delayed and retryable execution of task chains (similar to Quartz), supporting configurable
+retries, delays, metrics, and REST-based task management.
+Angle-Right Job success rate increased to 99.9% and recovery time reduced by 50%.
+Kotlin · Spring · Task Scheduler · Quartz ·
+
+User-Graduate EDUCATION
+2018 – 2022
+
+Bachelor’s Degree, System and Applied Software Engineering @ ITMO University, St. Petersburg, Russia
+
+ARTHUR KUPRIYANOV — CV
+
+2
+
+
